@@ -8,11 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Sections extends Model
 {
     use HasFactory;
-    protected $fillable = ['name', 'class_id'];
+    protected $fillable = ['name', 'classes_id'];
 
     public function class()
     {
-        return $this->belongsTo(Classes::class, 'class_id');
+        return $this->belongsTo(Classes::class);
     }
     public function students()
     {

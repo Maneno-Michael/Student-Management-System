@@ -34,7 +34,7 @@ class classSeeder extends Seeder
                             ->count(5)
                             ->state(
                                 function (array $attributes, Sections $sections) {
-                                    return ['class_id' => $sections->class_id];
+                                    return ['classes_id' => $sections->classes_id];
                                 }
                             )
                     )
