@@ -111,7 +111,7 @@ defineProps({
                 <div class="flex items-center justify-between w-full mx-10">
                     <div class="">
                         <svg
-                        class="w-10"
+                            class="w-10"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 640 512"
                         >
@@ -213,7 +213,19 @@ defineProps({
                 </div>
             </div>
             <div class="bg-blue-200 h-[60vh] relative">
-                <div class="absolute w-full h-full"></div>
+                <div class="absolute w-full h-[60vh]">
+                    <video
+                        src="../../../public/Assets/students.mp4"
+                        class="w-[100%] h-[100%] object-cover"
+                        loop
+                        autoplay
+                        muted
+                    />
+                    <div class="top-0 left-0 absolute bg-black/[0.5] h-full w-full"></div>
+                    <div class="m-5 top-10 absolute">
+                        <p class="text-yellow-400 font-extrabold text-3xl"> We are Bahati Schools</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
