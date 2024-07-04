@@ -22,7 +22,22 @@ defineProps({
 <template>
     <div>
         <div class="h-screen">
-            <div class="bg-green-400 h-10 flex justify-content-between"></div>
+            <div class="bg-green-400 h-10 flex items-center justify-between">
+                <div class="flex items-center justify-between w-full mx-10">
+                    <div class="flex gap-2 justify-center align-items-center">
+                        <div class="w-5 h-5"></div>
+                        <div class="text-white text-md">
+                            <p>
+                                School Hours
+                                <span class="text-black text-bold"
+                                    >(8.00Am - 6.00pm)</span
+                                >
+                            </p>
+                        </div>
+                    </div>
+                    <div>qwertyui</div>
+                </div>
+            </div>
             <!-- <nav v-if="canLogin" class="-mx-3 flex flex-1 justify-end">
                 <Link
                     v-if="$page.props.auth.user"
