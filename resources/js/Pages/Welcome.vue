@@ -22,8 +22,8 @@ defineProps({
 <template>
     <div>
         <div class="h-screen">
-            <div class="bg-green-400 h-10 flex items-center justify-between">
-                <div class="flex items-center justify-between w-full mx-10">
+            <div class="bg-green-400 h-10 flex">
+                <div class="flex gap-20 items-center justify-center w-full">
                     <div class="flex gap-2 justify-center align-items-center">
                         <div class="w-5 h-5"></div>
                         <div class="text-white text-md">
@@ -37,6 +37,9 @@ defineProps({
                     </div>
                     <div>qwertyui</div>
                 </div>
+            </div>
+            <div class="bg-blue-200 h-20 flex">
+                <div class="flex items-center justify-between w-full mx-10"></div>
             </div>
             <!-- <nav v-if="canLogin" class="-mx-3 flex flex-1 justify-end">
                 <Link
