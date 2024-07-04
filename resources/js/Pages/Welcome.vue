@@ -221,9 +221,23 @@ defineProps({
                         autoplay
                         muted
                     />
-                    <div class="top-0 left-0 absolute bg-black/[0.5] h-full w-full"></div>
-                    <div class="m-5 top-10 absolute">
-                        <p class="text-yellow-400 font-extrabold text-3xl"> We are Bahati Schools</p>
+                    <div
+                        class="top-0 left-0 absolute bg-black/[0.7] h-full w-full"
+                    ></div>
+                    <div class="m-5 top-10 absolute w-full">
+                        <div class="max-w-[1240px] mx-auto grid md:grid-cols-3">
+                            <div class="flex flex-col justify-center">
+                                <p
+                                    class="text-yellow-400 font-extrabold text-3xl mb-3"
+                                >
+                                    We are Bahati Schools
+                                </p>
+                                <p class="text-white mb-4">
+                                    We are an educational institution renowned for its commitment to academic excellence and holistic development. Located in a serene environment, We offer a conducive learning atmosphere with modern facilities and well-trained staff. 
+                                </p>
+                                <p class="bg-yellow-400 w-[200px] text-center py-2 font-extrabold rounded-lg text-lg">About School</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
