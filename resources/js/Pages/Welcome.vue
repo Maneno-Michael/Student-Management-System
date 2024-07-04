@@ -22,7 +22,7 @@ defineProps({
 <template>
     <div>
         <div class="h-screen">
-            <div class="bg-[#40bfc1] py-1 flex">
+            <div class="bg-[#29c190] shadow-lg py-1 flex">
                 <div class="flex gap-20 items-center justify-center w-full">
                     <div class="flex gap-2 justify-center align-items-center">
                         <div class="w-5 h-5"></div>
@@ -66,13 +66,13 @@ defineProps({
                     </div>
                 </div>
             </div>
-            <div class="bg-[#40bfc1] h-10 flex">
+            <div class="bg-[#29c190] shadow-lg h-20 flex ">
                 <div class="flex justify-end items-center w-full mx-10">
-                    <nav v-if="canLogin" class="-mx-3 flex flex-1 justify-end">
+                    <nav v-if="canLogin" class="-mx-3 flex gap-5 flex-1 justify-end">
                         <Link
                             v-if="$page.props.auth.user"
                             :href="route('dashboard')"
-                            class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                            class="rounded-md bg-yellow-300 px-3 py-1 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                         >
                             Dashboard
                         </Link>
@@ -80,7 +80,7 @@ defineProps({
                         <template v-else>
                             <Link
                                 :href="route('login')"
-                                class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                                class="rounded-md bg-yellow-300 font-bold  px-3 py-1 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                             >
                                 Log in
                             </Link>
@@ -88,7 +88,7 @@ defineProps({
                             <Link
                                 v-if="canRegister"
                                 :href="route('register')"
-                                class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                                class="rounded-md bg-yellow-300 font-bold px-3 py-1 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
                             >
                                 Register
                             </Link>
