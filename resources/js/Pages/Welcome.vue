@@ -212,6 +212,9 @@ defineProps({
                     </nav>
                 </div>
             </div>
+            <div class="bg-blue-200 h-[60vh] relative">
+                <div class="absolute w-full h-full"></div>
+            </div>
         </div>
     </div>
 </template>
