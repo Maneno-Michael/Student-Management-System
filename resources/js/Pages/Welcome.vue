@@ -39,7 +39,32 @@ defineProps({
                 </div>
             </div>
             <div class="bg-blue-200 h-20 flex">
-                <div class="flex items-center justify-between w-full mx-10"></div>
+                <div class="flex items-center justify-between w-full mx-10">
+                    <div class="text-3xl text-bold">Logo</div>
+                    <div class="flex">
+                        <div class="flex gap-2">
+                            <div class="h-10 w-10"></div>
+                            <div class="text-gray-400 text-sm my-2">
+                                <p>Call Now</p>
+                                <p>+254 718 776 401</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="h-10 w-10"></div>
+                            <div class="text-gray-400 text-sm my-2">
+                                <p>E-mail Us</p>
+                                <p>manenomichael99@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-2">
+                            <div class="h-10 w-10"></div>
+                            <div class="text-gray-400 text-sm my-2">
+                                <p>Our Location</p>
+                                <p>Bungoma Town </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- <nav v-if="canLogin" class="-mx-3 flex flex-1 justify-end">
                 <Link
